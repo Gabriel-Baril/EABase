@@ -47,3 +47,9 @@ Testing/*
 /buckaroo/
 .buckconfig.local
 BUCKAROO_DEPS
+
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+out/
+x64/

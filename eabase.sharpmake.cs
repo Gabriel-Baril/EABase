@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class EABaseProject : BaseCppProject
+public class HdnCodeExternalEABaseProject : BaseCppProject
 {
-    public EABaseProject()
+    public HdnCodeExternalEABaseProject()
     {
-        Name = "eabase";
+        Name = "hdn.code.external.eabase";
         // SourceRootPath = @"[project.SharpmakeCsPath]\source";
         AddTargets(TargetUtil.DefaultTarget);
     }

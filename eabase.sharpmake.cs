@@ -6,7 +6,7 @@ public class HdnCodeExternalEABaseProject : BaseCppProject
 {
     public HdnCodeExternalEABaseProject()
     {
-        Name = "hdn.code.external.eabase";
+        Name = "dm.code.external.eabase";
         // SourceRootPath = @"[project.SharpmakeCsPath]\source";
         AddTargets(TargetUtil.DefaultTarget);
     }
